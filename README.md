@@ -27,7 +27,8 @@ This project demonstrates the following Playwright features:
     │
     ├── tests
     │   ├── assertion.spec.js
-    │   ├── mockingtest.spec.js
+    │   ├── fixturetest.spec.js
+    |   ├── mockingtest.spec.js
     │
     ├── playwright.config.js
     ├── package.json
@@ -114,9 +115,3 @@ This ensures tests run automatically without requiring manual execution.
 -   ReqRes API -- Public API used for mocking tests
 
 ------------------------------------------------------------------------
-
-# Notes
-
-This repository was created for demonstrating automated testing concepts
-and features using Playwright. The examples are intentionally simple to
-clearly illustrate how each feature works.
