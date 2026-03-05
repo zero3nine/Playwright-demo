@@ -3,7 +3,7 @@
 
 import { test as base, expect, chromium } from '@playwright/test';
 
-//demo site used for the test - saucedemo.com,
+//demo site used for the test - saucedemo.com, reqres.in
 //saw it here - https://www.linkedin.com/pulse/best-test-demo-sites-practicing-software-automation-mark-nicoll-bjsme
 
 const URL = 'https://www.saucedemo.com'; 
@@ -70,9 +70,6 @@ test.describe('Fixture Demo Tests', () => {
         // manual teardown
         await browser.close();
     });
-
-
-
 });
 
 //6 tests using 7 workers - wow 67 nowaying
